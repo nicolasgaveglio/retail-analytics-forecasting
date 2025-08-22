@@ -205,3 +205,105 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# =============================================================================
+# DATA SCIENCE & MACHINE LEARNING SPECIFIC
+# =============================================================================
+
+# Data files - Common formats
+*.csv
+*.tsv
+*.json
+*.jsonl
+*.xlsx
+*.xls
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.db
+*.sqlite
+*.sqlite3
+
+# Large datasets and raw data
+data/
+datasets/
+raw_data/
+processed_data/
+external_data/
+interim_data/
+
+# Machine Learning models and artifacts
+models/
+saved_models/
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.hdf5
+*.pb
+*.pth
+*.pt
+*.bin
+*.onnx
+*.tflite
+weights/
+checkpoints/
+
+# MLflow tracking
+mlruns/
+mlartifacts/
+.mlflow/
+
+# Experiment tracking
+experiments/
+runs/
+logs/
+tensorboard_logs/
+wandb/
+
+# Model outputs and predictions
+predictions/
+outputs/
+results/
+submissions/
+
+# Large temporary files
+temp/
+tmp/
+cache/
+.cache/
+*.tmp
+
+# Feature stores
+features/
+feature_store/
+
+# Configuration files with sensitive data
+config.yaml
+config.json
+secrets.yaml
+secrets.json
+credentials.json
+.secrets/
+
+# Jupyter notebook outputs (optional - uncomment if you want clean notebooks)
+# *.ipynb
+
+# Power BI files (if working with business intelligence)
+*.pbix
+*.pbit
+*.rdl
+
+# Docker and deployment
+docker-compose.override.yml
+Dockerfile.local
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
